@@ -156,9 +156,9 @@ let private _parseArgs : string array ->
             | true, qnum when qnum > 0->
                 Ok qnum
             | _ ->
-                Error "Usage: NQueen [qnum] (qnum > 0)"                        
+                Error "Usage: NQueenSolver [qnum] (qnum > 0)"                        
         | _ ->
-            Error "Usage: NQueen [qnum]"                            
+            Error "Usage: NQueenSolver [qnum]"                            
                
 let private _main :
         string array ->
